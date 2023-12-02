@@ -1,0 +1,54 @@
+<!-- Modal-window -->
+
+<div class="modal-container is-hidden" data-modal>
+  <div class="modal-window">
+    <button class="close-modal-button" type="button" data-modal-close>
+      <svg class="close-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <p class="text-modal-form">Order Form</p>
+    <form name="contact-form" autocomplete="off" novalidate>
+      <div class="form-container">
+        <div>
+          <label class="form-label" for="user-name"
+            ><span class="form-label-text">Name</span></label
+          >
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            placeholder="Your name"
+            id="user-name"
+            autofocus
+          />
+        </div>
+        <div>
+          <label class="form-label" for="user-phone"
+            ><span class="form-label-text">Phone number</span></label
+          >
+          <input
+            class="form-input"
+            type="tel"
+            name="phone-number"
+            placeholder="+38(0_ _) _ _ _   _ _   _ _"
+            id="user-phone"
+          />
+        </div>
+        <div>
+          <label class="form-label" for="user-email"
+            ><span class="form-label-text">E-mail</span></label
+          >
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            placeholder="example@gmail.com"
+            id="user-email"
+          />
+        </div>
+      </div>
+      <button class="submit-btn-form" type="submit">Send</button>
+    </form>
+  </div>
+</div>

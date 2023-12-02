@@ -1,0 +1,40 @@
+/* Hero-section */
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+
+.hero-container {
+  display: flex;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.hero-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42;
+  margin-bottom: 32px;
+}
+
+.hero-button {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: block;
+  min-width: 98px;
+  height: 32px;
+  border-radius: 30px;
+  background-color: #bbf330;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-image {
+  display: none;
+}

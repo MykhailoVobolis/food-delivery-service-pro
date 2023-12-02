@@ -1,0 +1,62 @@
+<!-- Subscription -->
+<section class="subscription">
+  <div class="container subscription-container">
+    <div class="subscription-text-container">
+      <h2 class="subscription-title">Subscribe To Get Special Offers</h2>
+      <p class="subscription-text">
+        Order now and receive 10% off your first meal with Enjoy Your Favorite
+        Food From Anywhere.
+      </p>
+      <form
+        class="subscribe-form"
+        name="Subscribe"
+        autocomplete="off"
+        novalidate
+      >
+        <label>
+          <input
+            class="subscribe-email"
+            type="email"
+            name="user-email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <button class="subscribe-button" type="submit">Subscribe</button>
+      </form>
+    </div>
+    <picture class="subscribe-image">
+      <!-- Desktop -->
+      <source
+        media="(min-width: 1158px)"
+        srcset="./images/banan.png 1x, ./images/banan@2x.png 2x"
+        type="image/png"
+      />
+      <!-- Tablet -->
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/tablet/banan-tablet.png    1x,
+          ./images/tablet/banan-tablet@2x.png 2x
+        "
+        type="image/png"
+      />
+      <!-- Mobile -->
+      <source
+        media="(max-width: 768px)"
+        srcset="
+          ./images/mobile/banan-mobile.png    1x,
+          ./images/mobile/banan-mobile@2x.png 2x
+        "
+        type="image/png"
+      />
+      <img
+        class="main-subscribe-image"
+        src="./images/banan.png"
+        alt="banan"
+        width="280"
+        height="78"
+      />
+    </picture>
+  </div>
+</section>
