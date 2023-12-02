@@ -106,3 +106,137 @@
   font-weight: 400;
   line-height: 1.5;
 }
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 768px) {
+  /* Our-offers-tablet */
+
+  .our-offers {
+    padding-top: 56px;
+    padding-bottom: 94px;
+  }
+
+  .our-offers-image-second {
+    width: 164px;
+    height: 56px;
+    left: 100px;
+    top: 289px;
+  }
+
+  .our-offers-image {
+    width: 257px;
+    height: 326px;
+    left: 54px;
+  }
+
+  .background-image {
+    margin-bottom: 454px;
+  }
+
+  .our-offers-title {
+    font-size: 42px;
+    margin-bottom: 20px;
+    width: 526px;
+  }
+
+  .our-offers-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 33px;
+    width: 500px;
+  }
+
+  .advantages {
+    flex-direction: row;
+    gap: 80px;
+    margin-bottom: 20px;
+    max-width: 620px;
+  }
+
+  .our-offers-list-title-second-text {
+    width: 252px;
+  }
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1280px) {
+  /* Our-offers-desktop */
+
+  .our-offers {
+    background: #ffe550;
+    padding-top: 167px;
+    padding-bottom: 124px;
+  }
+
+  .our-offers-container {
+    display: flex;
+    padding-right: 51px;
+    justify-content: space-between;
+  }
+
+  .our-offers-image {
+    width: 396px;
+    height: 502px;
+    left: 60px;
+    bottom: 78px;
+  }
+
+  .our-offers-image-second {
+    left: 131px;
+    top: 364px;
+    width: 252px;
+    height: 87px;
+  }
+
+  .our-offers-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    width: 550px;
+    height: 550px;
+  }
+
+  .background-image {
+    position: relative;
+    border-radius: 50%;
+    width: 502px;
+    height: 502px;
+    background-color: #fefefe;
+    margin-bottom: 0;
+  }
+
+  .text-our-offers-container {
+    padding-top: 29px;
+  }
+
+  .our-offers-title {
+    line-height: 1.2;
+  }
+
+  .our-offers-text {
+    margin-bottom: 40px;
+  }
+
+  .advantages {
+    gap: 67px;
+    max-width: 573px;
+    margin-bottom: 32px;
+  }
+
+  .our-offers-list-title {
+    line-height: 1.4;
+  }
+
+  .our-offers-list-title-text {
+    line-height: 1.5;
+    width: 253px;
+  }
+
+  .read-more-container {
+    display: none;
+  }
+}

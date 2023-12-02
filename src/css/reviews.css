@@ -58,3 +58,73 @@
   font-weight: 400;
   line-height: 1.5;
 }
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 768px) {
+  /* Reviews-tablet */
+
+  .reviews {
+    padding-top: 80px;
+    padding-bottom: 23px;
+  }
+
+  .reviews-title {
+    font-size: 42px;
+  }
+
+  .reviews-text {
+    font-size: 16px;
+    margin-bottom: 33px;
+  }
+
+  .reviews-list {
+    flex-direction: row;
+  }
+
+  .reviews-item {
+    padding: 12px 12px;
+  }
+
+  .reviews-list-text {
+    font-size: 18px;
+  }
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1280px) {
+  /* Reviews-desktop */
+
+  .reviews {
+    padding-top: 140px;
+    padding-bottom: 126px;
+    background-color: #ffe550;
+  }
+
+  .reviews-container {
+    padding-left: 16px;
+    padding-right: 120px;
+  }
+
+  .reviews-list {
+    gap: 139px;
+  }
+
+  .reviews-item {
+    background-color: #fefefe;
+    padding: 14px 14px;
+    border-radius: 0px 30px 30px 30px;
+    width: calc((100% - 139px) / 2);
+  }
+
+  .reviews-icon {
+    fill: #ffe550;
+    margin-bottom: 28px;
+  }
+
+  .reviews-list-text {
+    font-weight: 700;
+    margin-bottom: 44.81px;
+  }
+}

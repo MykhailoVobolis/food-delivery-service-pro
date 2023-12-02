@@ -38,3 +38,34 @@
 .hero-button:focus {
   background-color: #ffe450;
 }
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 768px) {
+  /* Header-tablet-styles */
+
+  .mobile-menu-container {
+    display: none;
+  }
+
+  .burger-menu-button {
+    display: none;
+  }
+
+  /* Navigation-menu-tablet */
+
+  .navigation {
+    display: flex;
+    gap: 30px;
+  }
+
+  .list-navigation:first-child a {
+    text-decoration: underline;
+    color: #bbf330;
+    font-weight: 500;
+  }
+
+  .main-button {
+    margin-left: 0;
+  }
+}

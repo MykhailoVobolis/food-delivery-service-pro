@@ -127,3 +127,115 @@
   font-size: 10px;
   font-weight: 400;
 }
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 768px) {
+  /* Footer-tablet */
+
+  .footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/tablet/bg-footer-tablet.png);
+    min-width: 768px;
+  }
+
+  /* Изображение 2х для Footer */
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-devide-pixel-ratio: 2) {
+    .footer-section {
+      background-image: url(../images/tablet/bg-footer-tablet@2x.png);
+    }
+  }
+
+  .main-navigation-footer {
+    gap: 114px;
+  }
+
+  .navigation-menu {
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 28px;
+  }
+
+  .footer-email-form {
+    flex-direction: row;
+    gap: 13px;
+    margin-bottom: 12px;
+  }
+
+  .privacy-policy-warning {
+    font-size: 12px;
+  }
+
+  .developer-copiright-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .list-developer {
+    gap: 20px;
+  }
+
+  .link-developer {
+    font-size: 12px;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1280px) {
+  /* Footer-desktop */
+
+  .footer-section {
+    background-image: url(../images/bg-footer-desktop.png);
+    max-width: 100%;
+    background-size: 1211px;
+    background-position: 60% 100%;
+    min-width: 1158px;
+  }
+
+  /* Изображение 2х для Footer */
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-devide-pixel-ratio: 2) {
+    .footer-section {
+      background-image: url(../images/bg-footer-desktop@2x.png);
+    }
+  }
+
+  .navigation-sudscride {
+    flex-direction: row;
+  }
+
+  .main-navigation-footer {
+    gap: 143px;
+    margin-bottom: 0;
+  }
+
+  /* Navigation-menu-footer-desktop */
+
+  .navigation-menu-footer a {
+    color: #2c2c2c;
+  }
+
+  .subscribe {
+    margin-bottom: 80px;
+  }
+
+  .list-developer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
