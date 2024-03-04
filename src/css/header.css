@@ -59,7 +59,8 @@
     gap: 30px;
   }
 
-  .list-navigation:first-child a {
+  .list-navigation a:hover,
+  .list-navigation a:focus {
     text-decoration: underline;
     color: #bbf330;
     font-weight: 500;
